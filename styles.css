@@ -128,7 +128,9 @@ grid-row-gap: 0px;
     
 }
 
-h1{ color:rgba(6, 78, 6, 0.9);
+h1{  
+color: orange;
+
     font-size: 30px;
     font-weight: bold;
 }
