@@ -16,8 +16,8 @@
   
 
     <div class="nav-bar">
-      <div>
-        <h1>Amoro.</h1>
+      <div class="logo">
+        <h1>T/A</h1>
       </div>
       <div>
       <ul>
@@ -25,11 +25,11 @@
         <li><a href="#">Summary</a></li>
         <li><a href="#">Skills & Experience</a></li>
         <li><a href="#">Project Gallery</a></li>
-        <li><a href="#">Contact Information</a></li>
         <li><a href="#">Resume</a></li>
+        <li><a href="#">Contact me</a></li>
       </ul>
     </div>
-    <button>Let's talk</button>
+    <button class="animate-bounce"><a href="#">Let's talk</a></button>
     </div>
 
 
@@ -37,7 +37,7 @@
       <div>
         <img src="./images/photo1.jpg" alt="my profile">
       </div>
-      <div>
+      <div class="main-text">
          <h1>Hello! Welcome</h1>
         <h1>I'm <span>Tracy Anizi Amoro</span></h1>
         <h4>Web Developer | Creative</h4>
@@ -48,7 +48,7 @@
       <div class="second">
         
         <h1>About Me</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum debitis <br>voluptatibus aliquid ab veritatis eligendi vel! Hic labore aliquam numquam in. <br>Voluptatem reprehenderit et tempora, molestiae iste ipsum officia error?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum debitis voluptatibus aliquid ab veritatis eligendi vel! Hic labore aliquam numquam in.Voluptatem reprehenderit et tempora, molestiae iste ipsum officia error?</p>
       </div>
       
       <div class="fourth">
@@ -57,22 +57,25 @@
       </div>
       <div class="fourth-content">
        
-        <div class="container">
+        <div class="grid-items">
+          <img src="./images/undraw_coding_joxb.svg" alt="icon">
           <h4><span>Web Development</span></h4>
           <p>HTML/CSS</p>
           <p>JavaScript</p>
           <p>Responsive Design</p>
         </div>
        
-        <div class="container">
+        <div class="grid-items">
+          <img src="./images/undraw_researching_5qj6.svg" alt="icon">
           <h4><span>Market Research</span></h4>
-          <p>Understanding customer needs and Market Trends</p>
+          <p>Market Trends</p>
           <p>Strategic thinking</p>
-          <p>AI and Machine Learning</p>
+          <p>Machine Learning</p>
         </div>
         
-        <div class="container">
-          <h4><span>Admnistrative Associate</span></h4>
+        <div class="grid-items">
+          <img src="./images/undraw_working_n9u0.svg" alt="icon">
+          <h4><span>Admnistration</span></h4>
           <p>Time management</p>
           <p>Interpersonal Skills</p>
           <p>Leadership and Initiative</p>
@@ -82,20 +85,45 @@
         
       </div>
 
+        <!-- Projects Section -->
+  <section id="projects" class="section1">
+    <div class="container1">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="#" alt="Project 1">
+          <h3>Project 1</h3>
+          <p>A responsive e-commerce website built with React and Node.js.</p>
+        </div>
+        <div class="project-card">
+          <img src="#" alt="Project 2">
+          <h3>Project 2</h3>
+          <p>A portfolio website designed with HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project-card">
+          <img src="#" alt="Project 3">
+          <h3>Project 3</h3>
+          <p>A blog platform using Django and PostgreSQL.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
       
 
         <section id="contact" class="section">
           <div class="container">
             <h2>Contact Me</h2>
             <form id="contact-form">
-              <input type="text" placeholder="Your Name" required>
-              <input type="email" placeholder="Your Email" required>
-              <textarea placeholder="Your Message" required></textarea>
+              <input type="text" style="color: white;" placeholder="Your Name" required>
+              <input type="email" style="color: white;" placeholder="Your Email" required>
+              <textarea placeholder="Your Message" style="color: white;" required></textarea>
               <button type="submit">Send Message</button>
             </form>
           </div>
         </section>
 
+        
 
 
 
@@ -111,9 +139,9 @@
     
     </section>
 
-    <section>
-      
-    </section>
+    <footer>
+      <h4>Copyright ©2025 All rights reserved | This website was built by Trey Anizi Amoro</h4>
+    </footer>
    
   
 
