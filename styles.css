@@ -195,10 +195,11 @@ button {
   color: white;
   font-size: 50px;
   font-weight: bold;
-  font-family: "Roboto Mono", serif;
   font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal; 
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+ 
  
 }
 
@@ -306,18 +307,22 @@ footer{
 }
 
 body {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
   background-color: #000000;
-  color: white;
-}
+  color: white; 
+} 
 
 button {
   color: #ccc;
-  border: 2px solid;
+  border: 1px solid;
   margin-left: 15px;
   margin-top: 40px;
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3),
     0 8px 16px rgba(3, 230, 71, 0.3);
+    padding: 5px 10px;
+    margin-bottom: 5px;
 }
 
 /* Navigation Bar */
@@ -335,31 +340,34 @@ button {
 }
 
 .logo h1 {
+
   margin-left: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   border: 4px solid;
   color: green;
-  width: 150px;
-  padding-left: 25px;
-  border-radius: 200px;
+  width: 100px;
+  padding-left: 20px;
+  border-radius: 50%;
 }
 
 .nav-bar a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   display: block;
 }
 
 .nav-bar a:hover {
-  font-size: 27px;
+  font-size: 22px;
   color: green;
   font-weight: bold;
 }
 
 .nav-bar li {
-  line-height: 50px;
+  line-height: 40px;
+  text-decoration: none;
+
 }
 
 /* Main Section */
@@ -388,14 +396,15 @@ button {
 
 /* About Me Section */
 .second {
-  margin-left: 300px;
-  height: 90vh;
+  margin-left: 400px;
+  margin-right: 100px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 50px;
-  padding: 0 20px;
+  /* padding: 0 20px; */
 }
 
 /* Skills and Experience Section */
@@ -427,7 +436,14 @@ button {
   padding: 20px;
   width: 100%;
   max-width: 300px;
+  -webkit-animation: slide-fwd-center 0.35s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-fwd-center 0.35s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+
+
+span {
+  color: green;
+} 
 
 /* Projects Section */
 .section1 {
@@ -470,10 +486,18 @@ button {
 }
 
 /* Contact Section */
+
+.container h2{
+  font-size: 50px;
+  color: green;
+  margin-left: 650px;
+  margin-bottom: 100px;}
+
 .section {
   height: auto;
   padding: 100px 20px;
   background-color: #000000;
+  
 }
 
 #contact-form {
@@ -481,6 +505,7 @@ button {
   flex-direction: column;
   max-width: 500px;
   margin: 0 auto;
+  margin-left: 550px
 }
 
 #contact-form input,
@@ -597,5 +622,12 @@ footer {
 
   .project-grid {
     grid-template-columns: 1fr;
-  }
+  }
+
+  .third{
+ margin: 0;   
+  }
+
+ 
+
 }
