@@ -388,6 +388,11 @@ button {
   border-radius: 250px;
   height: 200px;
   object-fit: cover;
+  
+  
+
+
+  
 }
 
 .main-text h1 {
@@ -405,8 +410,12 @@ button {
   align-items: center;
   justify-content: center;
   gap: 50px;
-  /* padding: 0 20px; */
+ 
 }
+
+
+
+
 
 /* Skills and Experience Section */
 .fourth {
@@ -501,11 +510,18 @@ span {
   margin-bottom: 100px;}
 
 .section {
+  display: flex;
+  align-content: center;
+  justify-content: center;
   height: auto;
-  padding: 100px 20px;
+  padding:100px 20px;
   background-color: #000000;
-  margin-left: 120px;
+  margin-left: 100px;
   
+}
+
+.container{
+  margin-left: -100px;
 }
 
 .project-card:hover{
