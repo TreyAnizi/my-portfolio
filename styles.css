@@ -392,6 +392,7 @@ button {
 
 .main-text h1 {
   padding-bottom: 20px;
+  font-size: 70px;
 }
 
 /* About Me Section */
@@ -459,6 +460,10 @@ span {
   color: white;
 }
 
+.container1 h1{
+  padding-bottom: 60px;
+}
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -466,7 +471,7 @@ span {
 }
 
 .project-card {
-  background: #fff;
+  background: #deffb6;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -477,12 +482,14 @@ span {
   border-radius: 8px;
 }
 
-.project-card h3 {
-  margin: 15px 0 10px;
+.project-card img:hover {
+  width: 99%;
 }
 
 .project-card p {
-  color: green;
+  padding-top: 25px;
+  color: rgb(0, 0, 0);
+ 
 }
 
 /* Contact Section */
@@ -497,7 +504,12 @@ span {
   height: auto;
   padding: 100px 20px;
   background-color: #000000;
+  margin-left: 120px;
   
+}
+
+.project-card:hover{
+background-color:#c6fc85 ;
 }
 
 #contact-form {
@@ -529,6 +541,7 @@ span {
 
 #contact-form button:hover {
   background: rgb(112, 160, 74);
+  
 }
 
 /* Footer */
